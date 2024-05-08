@@ -47,7 +47,7 @@ public class Payment {
     private double amount = 10.00; //Amount of the transaction
     private static final int trType = 1; //Transaction type (1 - Purchase, 21 - Payment, 22 - Refund) -> https://developer.azericard.com/
     private String operationTime = "20240501135400"; //Operation time (YYYYMMDDHHMMSS)
-    private String nonce = "487f7b22f68312d2"; //Nonce (Ramdom 16 characters)
+    private String nonce = "487f7b22f68312d2"; //Nonce (Random 16 characters)
     private String pSign = ""; //PSign (512 characters)
     private String pSignGenerated = ""; //Generated PSign (512 characters) for testing purposes
     private String name = "Yavuz Selim Öztürk"; //Customer name
